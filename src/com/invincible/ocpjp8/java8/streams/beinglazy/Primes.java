@@ -20,7 +20,7 @@ public class Primes {
     }
 
     public static void main(String[] args) {
-        System.out.println(primes(1, 1000));
+        System.out.println(primes(10, 1000));
         System.out.println(primes(1_000_000, 10));
         System.out.println(primes(1_000_000_000, 10000));
     }
