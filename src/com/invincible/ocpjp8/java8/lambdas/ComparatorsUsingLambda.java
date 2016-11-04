@@ -47,11 +47,10 @@ public class ComparatorsUsingLambda {
         Collections.sort(strings3, String::compareToIgnoreCase);
         System.out.println("strings3 - Sorted = " + strings3);
 
-//        System.out.println("strings4 - Original = " + strings4);
-//
-//        Collections.sort(strings4, (first, second) -> Comparator<String>.compare(String::length
-//        ));
-//        System.out.println("strings4 - Sorted = " + strings4);
+        System.out.println("strings4 - Original = " + strings4);
+
+       Collections.sort(strings4, (first, second) -> first.length() - second.length());
+        System.out.println("strings4 - Sorted = " + strings4);
 
     }
 
