@@ -1,4 +1,4 @@
-package java8;
+package com.invincible.ocpjp8.java8;
 
 public class FunctionalInterfaceTest {
 
